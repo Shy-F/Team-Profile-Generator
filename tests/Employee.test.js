@@ -1,0 +1,1 @@
+const employee = requirer('./lib/Employee.js');
