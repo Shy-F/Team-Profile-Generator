@@ -28,7 +28,7 @@ describe('employee', () => {
             expect(employee.getId()).toEqual(expect.any(Number));
         });
 
-        it('Get rol from constructor', () => {
+        it('Get role from constructor', () => {
             const employee = new Employee('Tilvia, til.newman@gmail.com, 890');
             expect(employee.getRole()).toEqual('Employee');
         });
